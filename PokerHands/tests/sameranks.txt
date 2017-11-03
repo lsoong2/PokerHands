@@ -1,0 +1,87 @@
+; high card
+player1 2C 5C 6C 7D 8C player2 2H 5H 6H 7C 8H
+player1 2C 5C 6C 7D 8C player2 3H 5H 6H 7C 8H
+player1 3C 5C 6C 7D 8C player2 2H 5H 6H 7C 8H
+player1 2C 5C 6C 7D 9C player2 2H 5H 6H 7C 9H
+player1 2C 5C 6C 7D 9C player2 3H 5H 6H 7C 9H
+player1 3C 5C 6C 7D 9C player2 2H 5H 6H 7C 9H
+player1 2C 5C 6C 7D AC player2 2H 5H 6H 7C KH
+player1 2C 5C 6C 7D KC player2 2H 5H 6H 7C AH
+player1 2C 5C 6C 7D AC player2 2H 5H 6H 7C AH
+; pair
+player1 JC QC KC 7C 7S player2 JS QS KS 7D 7H
+player1 10C JC QC 7C 7S player2 10S JS AS 7D 7H
+player1 10C JC AC 7C 7S player2 10S JS QS 7D 7H
+player1 10C JC KC 7C 7S player2 10S QS KS 7D 7H
+player1 10C QC KC 7C 7S player2 10S JS KS 7D 7H
+player1 9C QC KC 7C 7S player2 10S QS KS 7D 7H
+player1 10C QC KC 7C 7S player2 9S QS KS 7D 7H
+player1 JC QC KC 7C 7S player2 JS QS KS 2D 2H
+player1 JC QC KC 2C 2S player2 JS QS KS 7D 7H
+player1 JC QC KC 7C 7S player2 JS QS KS AD AH
+player1 JC QC KC AC AS player2 JS QS KS 7D 7H
+player1 JC QC KC 7C 7S player2 JS QS KS 10D 10H
+player1 JC QC KC 10C 10S player2 JS QS KS 7D 7H
+; two pair
+player1 2C 2S 3C 3S 4C player2 2D 2H 3D 3H 4D
+player1 2C 2S 3C 3S AC player2 2D 2H 3D 3H 4D
+player1 2C 2S 3C 3S 4C player2 2D 2H 3D 3H AD
+player1 2C 2S AC AS 4C player2 2D 2H 3D 3H 4D
+player1 2C 2S 3C 3S 4C player2 2D 2H AD AH 4D
+player1 2C 2S AC AS 4C player2 2D 2H KD KH 4D
+player1 2C 2S KC KS 4C player2 2D 2H AD AH 4D
+player1 2C 2S 7C 7S 4C player2 3D 3H 7D 7H 4D
+player1 3C 3S 7C 7S 4C player2 2D 2H 7D 7H 4D
+player1 3C 3S 4C 4S AC player2 3D 3H 4D 4H 2D
+player1 3C 3S 4C 4S 2C player2 3D 3H 4D 4H AD
+player1 3C 3S 4C 4S AC player2 3D 3H 4D 4H KD
+player1 3C 3S 4C 4S KC player2 3D 3H 4D 4H AD
+; three of a kind
+player1 2S 2C 2D 3D 4C player2 3S 3C 3H 2H 4H
+player1 3S 3C 3H 2H 4H player2 2S 2C 2D 3D 4C
+player1 3S 3C 3D 4D AC player2 2S 2C 2H 4H AH
+player1 2S 2C 2H 4H AH player2 3S 3C 3D 4D AC
+; straight
+player1 2S 3D 4C 5S AD player2 2C 3H 4S 5C AH
+player1 2S 3D 4C 5S AD player2 2C 3H 4S 5C 6H
+player1 2S 3D 4C 5S 6D player2 2C 3H 4S 5C AH
+player1 10S JD QC KS AD player2 10C JH QS KC AH
+player1 2S 3D 4C 5S AD player2 10C JH QS KC AH
+player1 10S JD QC KS AD player2 2C 3H 4S 5C AH
+; flush
+player1 2C 3C 4C 6C AC player2 2S 3S 4S 6S AS
+player1 2C 3C 4C 5C 7C player2 2S 3S 4S 5S 7S
+player1 2C 3C 4C 6C AC player2 2S 3S 4S 5S 7S
+player1 2S 3S 4S 5S 7S player2 2C 3C 4C 6C AC
+player1 9H 10H JH QH AH player2 9D 10D JD QD AD
+player1 8H 10H JH QH KH player2 8D 10D JD QD KD
+player1 9H 10H JH QH AH player2 8D 10D JD QD KD
+player1 8H 10H JH QH KH player2 9D 10D JD QD AD
+; full house
+player1 2S 2D AS AC AD player2 2C 2H KS KC KD
+player1 2C 2H KS KC KD player2 2S 2D AS AC AD
+player1 2S 2D AS AC AD player2 2C 2H 3S 3C 3D
+player1 2C 2H 3S 3C 3D player2 2S 2D AS AC AD
+player1 2S 2D 7S 7C 7D player2 2C 2H JS JC JD
+player1 2C 2H JS JC JD player2 2S 2D 7S 7C 7D
+; four of a kind
+player1 3S AS AH AD AC player2 2S 2H 2D 2C KS
+player1 2S 2H 2D 2C KS player2 3S AS AH AD AC 
+player1 3S AS AH AD AC player2 QS KH KD KC KS
+player1 QS KH KD KC KS player2 3S AS AH AD AC 
+player1 QS KH KD KC KS player2 2S 2H 2D 2C KS
+player1 2S 2H 2D 2C KS player2 QS KH KD KC KS
+; straight flush
+player1 AD 2D 3D 4D 5D player2 AS 2S 3S 4S 5S
+player1 2D 3D 4D 5D 6D player2 2S 3S 4S 5S 6S
+player1 2D 3D 4D 5D 6D player2 AS 2S 3S 4S 5S
+player1 AD 2D 3D 4D 5D player2 2S 3S 4S 5S 6S
+player1 10D JD QD KD AD player2 10S JS QS KS AS
+player1 AD 2D 3D 4D 5D player2 10S JS QS KS AS
+player1 10D JD QD KD AD player2 2S 3S 4S 5S 6S
+player1 5C 6C 7C 8C 9C player2 5H 6H 7H 8H 9H
+player1 8C 9C 10C JC QC player2 8H 9H 10H JH QH
+player1 5C 6C 7C 8C 9C player2 8H 9H 10H JH QH
+player1 8C 9C 10C JC QC player2 5H 6H 7H 8H 9H
+
+
