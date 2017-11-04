@@ -18,15 +18,14 @@ public class ConsoleApp {
 		
 		try
 		{
-			game.PlayHand(input);
+			TwoPlayerPokerGame.Result result = game.PlayHand(input);
+			System.out.println(TwoPlayerPokerGame.ResultToString(result));
 		} catch (IllegalArgumentException e) {
 			System.out.println(e.getStackTrace());
 		}
 	}
 	
 	public void Run() {
-		//game.PlayHand("6S 5S 2D 2H 2C QH JS 6D 5H 3S");
-		//game.PlayHand(20);
     	String line;
     	InputStreamReader in = null;
     	BufferedReader br = null;
@@ -63,6 +62,5 @@ public class ConsoleApp {
     public static void main(String[] args) {
     	ConsoleApp app = new ConsoleApp();
     	app.Run();
-        //new GuiApp1();
     }
 }

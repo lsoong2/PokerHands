@@ -69,8 +69,8 @@ player1 3S AS AH AD AC player2 2S 2H 2D 2C KS
 player1 2S 2H 2D 2C KS player2 3S AS AH AD AC 
 player1 3S AS AH AD AC player2 QS KH KD KC KS
 player1 QS KH KD KC KS player2 3S AS AH AD AC 
-player1 QS KH KD KC KS player2 2S 2H 2D 2C KS
-player1 2S 2H 2D 2C KS player2 QS KH KD KC KS
+player1 QS KH KD KC KS player2 2S 2H 2D 2C AS
+player1 2S 2H 2D 2C AS player2 QS KH KD KC KS
 ; straight flush
 player1 AD 2D 3D 4D 5D player2 AS 2S 3S 4S 5S
 player1 2D 3D 4D 5D 6D player2 2S 3S 4S 5S 6S
