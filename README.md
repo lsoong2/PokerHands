@@ -8,12 +8,13 @@ ConsoleApp was written first to test the functionality and uses STDIN and STDOUT
 TextGuiApp was written to provide a Native GUI interface for the functionality.
 
 In both cases a string is provided in the following form:
-    <p>&lt;player1 name&gt; &lt;player1 card1&gt; ... &lt;player1 card5&gt; &lt;player2 name&gt; &lt;player2 card1&gt; ... &lt;player2 card5&gt;</p>
-    <p>each card element takes the form &lt;Value&gt;&lt;Suit&gt;, where</p>
-    <p>value must be: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A and</p>
-    <p>suit must be: C, D, H, S for club, diamond, heart, spade</p>
 
-    <p>an example valid string is "player1 AC KC QC JC 10C player2 AH KH QH JH 10H"</p>
+    &lt;player1 name&gt; &lt;player1 card1&gt; ... &lt;player1 card5&gt; &lt;player2 name&gt; &lt;player2 card1&gt; ... &lt;player2 card5&gt;
+    each card element takes the form &lt;Value&gt;&lt;Suit&gt;, where
+    value must be: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A and
+    suit must be: C, D, H, S for club, diamond, heart, spade
+
+    an example valid string is "player1 AC KC QC JC 10C player2 AH KH QH JH 10H"
 
 The mechanics of the logic to compare two hands of poker were:
 1. Sort the cards with the value (2-10, Jack, Queen, King, Ace) as the first-order comparator, and the suit as the second. Ace is treated as high in this sorting. The ordering is descending, starting with the highest valued cards.
