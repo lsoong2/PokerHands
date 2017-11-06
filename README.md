@@ -9,8 +9,8 @@ TextGuiApp was written to provide a Native GUI interface for the functionality.
 
 In both cases a string is provided in the following form:
 
-    &lt;player1 name&gt; &lt;player1 card1&gt; ... &lt;player1 card5&gt; &lt;player2 name&gt; &lt;player2 card1&gt; ... &lt;player2 card5&gt;
-    each card element takes the form &lt;Value&gt;&lt;Suit&gt;, where
+    <player1 name> <player1 card1> ... <player1 card5> <player2 name> <player2 card1> ... <player2 card5>
+    each card element takes the form <Value><Suit>, where
     value must be: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A and
     suit must be: C, D, H, S for club, diamond, heart, spade
 
